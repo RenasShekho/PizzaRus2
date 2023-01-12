@@ -1,0 +1,56 @@
+[
+  {
+    "ID": 45,
+    "Name": "Snack Kurv",
+    "Number": 1,
+    "TilbehørPris": 50.0,
+    "Info": [
+      "4 stk. Mozzarella Sticks, 4 stk. Chili Cheese, 4 stk. Onion Rings, med Ketchup og Remoulade."
+    ]
+  },
+  {
+    "ID": 46,
+    "Name": "Kyllinge Box",
+    "Number": 2,
+    "TilbehørPris": 50.0,
+    "Info": [
+      "Box med Kylling, Salat, Pommes Frites og Dressing."
+    ]
+  },
+  {
+    "ID": 47,
+    "Name": "Hvidløgsbrød",
+    "Number": 3,
+    "TilbehørPris": 35.0,
+    "Info": [
+      "Klassisk Hvidløgsbrød med ost."
+    ]
+  },
+  {
+    "ID": 48,
+    "Name": "Hot Wings",
+    "Number": 4,
+    "TilbehørPris": 60.0,
+    "Info": [
+      "5 stk. Hot Wings, med Pommes Frites, Salat og Dressing."
+    ]
+  },
+  {
+    "ID": 49,
+    "Name": "Chicken Nuggets",
+    "Number": 5,
+    "TilbehørPris": 60.0,
+    "Info": [
+      "10 stk. Chicken Nuggets, med Pommes Frites, Salat og Dressing"
+    ]
+  },
+  {
+    "ID": 50,
+    "Name": "Pommes Frites",
+    "Number": 6,
+    "TilbehørPris": 30.0,
+    "Info": [
+      "Stor Pommes Frites med Ketchup og Pommes Frites sauce."
+    ]
+  }
+]

@@ -1,0 +1,90 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CartImages\off-button.png" />
+    <None Remove="drikkevarer-til-fest-bg.jpg" />
+    <None Remove="favpng_pizza-pizza-italian-cuisine-pepperoni.png" />
+    <None Remove="favpng_soft-drink.png" />
+    <None Remove="MainImages\Cart.png" />
+    <None Remove="MainImages\cross.png" />
+    <None Remove="MainImages\drikkevarer-til-fest-bg.jpg" />
+    <None Remove="MainImages\favpng_pizza-pizza-italian-cuisine-pepperoni.png" />
+    <None Remove="MainImages\favpng_soft-drink.png" />
+    <None Remove="MainImages\left.png" />
+    <None Remove="MainImages\minimize.png" />
+    <None Remove="MainImages\off-button.png" />
+    <None Remove="MainImages\Pizza-Toppings.jpg" />
+    <None Remove="MainImages\Pizza.jpg" />
+    <None Remove="MainImages\pizza1.jpg" />
+    <None Remove="MainImages\pizzarus.png" />
+    <None Remove="MainImages\pizzarus1.png" />
+    <None Remove="MainImages\pizzarus2.png" />
+    <None Remove="MainImages\plus.png" />
+    <None Remove="MainImages\remove.png" />
+    <None Remove="MainImages\sweep.png" />
+    <None Remove="MainImages\tilføjikone.png" />
+    <None Remove="MainImages\zoom.png" />
+    <None Remove="loginImages\key.png" />
+    <None Remove="loginImages\log-in1.png" />
+    <None Remove="loginImages\pizza login.jpg" />
+    <None Remove="loginImages\user.png" />
+    <None Remove="Pizza-Toppings.jpg" />
+    <None Remove="Pizza.jpg" />
+    <None Remove="pizza1.jpg" />
+    <None Remove="pizzarus.png" />
+    <None Remove="pizzarus1.png" />
+    <None Remove="pizzarus2.png" />
+    <None Remove="tilføjikone.png" />
+    <None Remove="view\key.png" />
+    <None Remove="view\left.png" />
+    <None Remove="view\off-button.png" />
+    <None Remove="view\Pizza-Toppings.jpg" />
+    <None Remove="view\user.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AscendantWare.WPF.Essentials" Version="1.0.27" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.6.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="CartImages\off-button.png" />
+    <Resource Include="MainImages\drikkevarer-til-fest-bg.jpg" />
+    <Resource Include="MainImages\cross.png" />
+    <Resource Include="CartImages\left.png" />
+    <Resource Include="MainImages\minimize.png" />
+    <Resource Include="MainImages\off-button.png" />
+    <Resource Include="MainImages\pizza1.jpg" />
+    <Resource Include="MainImages\Cart.png" />
+    <Resource Include="MainImages\favpng_pizza-pizza-italian-cuisine-pepperoni.png" />
+    <Resource Include="MainImages\favpng_soft-drink.png" />
+    <Resource Include="MainImages\Pizza.jpg" />
+    <Resource Include="MainImages\pizzarus1.png" />
+    <Resource Include="MainImages\pizzarus2.png" />
+    <Resource Include="MainImages\plus.png" />
+    <Resource Include="MainImages\remove.png" />
+    <Resource Include="MainImages\sweep.png" />
+    <Resource Include="MainImages\zoom.png" />
+    <Resource Include="loginImages\key.png" />
+    <Resource Include="loginImages\log-in1.png" />
+    <Resource Include="loginImages\pizza login.jpg" />
+    <Resource Include="loginImages\user.png" />
+    <Resource Include="MainImages\Pizza-Toppings.jpg" />
+    <Resource Include="MainImages\pizzarus.png" />
+    <Resource Include="MainImages\tilføjikone.png" />
+    <Resource Include="view\key.png" />
+    <Resource Include="view\left.png" />
+    <Resource Include="view\off-button.png" />
+    <Resource Include="view\Pizza-Toppings.jpg" />
+    <Resource Include="view\user.png" />
+  </ItemGroup>
+
+</Project>

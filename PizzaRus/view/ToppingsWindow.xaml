@@ -1,0 +1,192 @@
+﻿<Window x:Class="PizzaRus.view.ToppingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PizzaRus.view"
+        mc:Ignorable="d"
+        Title="ToppingsWindow" Height="600" Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.2*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+
+        <Image Source="/view/Pizza-Toppings.jpg" Stretch="UniformToFill" Grid.RowSpan="3" Grid.ColumnSpan="2" Opacity="0.2"/>
+
+        <TextBlock Text="Tryk på Toppings, du vil have på din Pizza." FontSize="17" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="20"/>
+        <TextBlock Text=" Oregano og Tomatsauce er gratis!" FontSize="16" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="20 20 20 40"/>
+        <TextBlock Text="Extra toppings" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0 0 0 10"/>
+        <TextBlock Text="Din Pizza" FontSize="15" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Bottom"  Margin="0 0 0 10"/>
+
+        <!--Extra Toppings-->
+        <Border  BorderBrush="Black" BorderThickness="1" Margin="40 0 40 0" Grid.Column="0" Grid.Row="1">
+            <ScrollViewer x:Name="Scroll_Extra" VerticalScrollBarVisibility="Hidden"  Background="#C7CBCE" >
+                <ItemsControl ItemsSource="{Binding Toppings}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+
+                            <Border BorderBrush="Black" BorderThickness="0 1 0 1" Margin="0 0 0 5">
+                                <Button x:Name="btn_OffPizza"  Click="btn_OffPizza_Click">
+                                    <Button.Style>
+                                        <Style TargetType="Button">
+                                            <Setter Property="Background" Value="#feeee7"/>
+                                            <Setter Property="Cursor" Value="Hand"/>
+                                            <Style.Triggers>
+                                                <Trigger Property="IsMouseOver" Value="True">
+                                                    <Setter Property="Background" Value="#E09D86"/>
+                                                </Trigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </Button.Style>
+                                    <Button.Template>
+                                        <ControlTemplate TargetType="Button">
+                                            <Border Background="{TemplateBinding Background}" >
+                                                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Button.Template>
+
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="1*"/>
+                                            <ColumnDefinition Width="1*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="1*"/>
+                                            <RowDefinition Height="1*"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid Grid.ColumnSpan="2">
+
+                                            <StackPanel Orientation="Horizontal" Width="205" Height="40">
+                                                <DockPanel LastChildFill="False">
+                                                    <TextBlock Text="{Binding Name}"  FontSize="15" Width="150" Margin="5 0 0 0" DockPanel.Dock="Left" />
+                                                    <TextBlock x:Name="t_pris" TextWrapping="Wrap" Text="{Binding Price, StringFormat='{}{0:c}', ConverterCulture='da-DK'}" FontSize="14" DockPanel.Dock="Right"/>
+                                                </DockPanel>
+                                            </StackPanel>
+                                        </Grid>
+                                    </Grid>
+                                </Button>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </Border>
+
+        <!--Din Pizza-->
+        <Border  BorderBrush="Black" BorderThickness="1" Margin="40 0 40 0" Grid.Column="1" Grid.Row="1">
+            <ScrollViewer  x:Name="Scroll_OnPizza" VerticalScrollBarVisibility="Hidden"  Background="#C7CBCE">
+                <ItemsControl ItemsSource="{Binding selected.Toppings}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+
+                            <Border BorderBrush="Black" BorderThickness="0 1 0 1" Margin="0 0 0 5">
+                                <Button x:Name="btn_OnPizza" HorizontalAlignment="Left" Click="btn_OnPizza_Click">
+                                    <Button.Style>
+                                        <Style TargetType="Button">
+                                            <Setter Property="Background" Value="#feeee7"/>
+                                            <Setter Property="Cursor" Value="Hand"/>
+                                            <Style.Triggers>
+                                                <Trigger Property="IsMouseOver" Value="True">
+                                                    <Setter Property="Background" Value="#E09D86"/>
+                                                </Trigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </Button.Style>
+                                    <Button.Template>
+                                        <ControlTemplate TargetType="Button">
+                                            <Border Background="{TemplateBinding Background}" >
+                                                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Button.Template>
+
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="1*"/>
+                                            <ColumnDefinition Width="1*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="1*"/>
+                                            <RowDefinition Height="1*"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid Grid.ColumnSpan="2">
+                                            <StackPanel Orientation="Horizontal" Width="210" Height="40">
+                                                <DockPanel LastChildFill="False">
+                                                    <TextBlock Text="{Binding Name}"  FontSize="15" Width="150" Margin="5 0 0 0" DockPanel.Dock="Left"/>
+                                                    <TextBlock x:Name="tt_pris" TextWrapping="Wrap" Text="{Binding Price, StringFormat='{}{0:c}', ConverterCulture='da-DK'}" FontSize="14" DockPanel.Dock="Right"/>
+                                                </DockPanel>
+                                            </StackPanel>
+                                        </Grid>
+                                    </Grid>
+                                </Button>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </Border>
+
+        <!--Price Text-->
+        <StackPanel Grid.Row="2" HorizontalAlignment="Center" Orientation="Horizontal" Grid.Column="1"  Margin="0 15 50 10">
+            <TextBlock x:Name="t_beløb" Text="Beløb: " FontSize="14"/>
+            <TextBlock x:Name="t_money" TextWrapping="Wrap" Text="{Binding selected.Price, StringFormat='{}{0:c}', ConverterCulture='da-DK'}" FontSize="14"/>
+        </StackPanel>
+
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="2" Height="30" Width="60" HorizontalAlignment="Right"  Margin="30, 30, 50, 10" >
+            <Button x:Name="btn_ok" Content="Ok" Click="btn_ok_Click" Height="30" Width="60" FontSize="14">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="#feeee7"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#E09D86"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" >
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+        </Border>
+
+        <Border BorderBrush="Black" BorderThickness="1" Grid.Column="1" Grid.Row="2" Height="30" Width="60" HorizontalAlignment="Left"  Margin="30, 30, 50, 10" >
+            <Button x:Name="btn_Fortryd" Content="Fortryd" Click="btn_Fortryd_Click" Height="30" Width="60"  FontSize="14" >
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="#feeee7"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#E09D86"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" >
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+        </Border>
+
+
+    </Grid>
+</Window>

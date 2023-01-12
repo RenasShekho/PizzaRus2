@@ -1,0 +1,631 @@
+[
+  {
+    "ID": 0,
+    "name": "Margherita",
+    "PizzaPris": 60.0,
+    "Number": 1,
+    "Toppings": [
+      {
+        "ID": 0,
+        "Name": "Tomatsauce",
+        "Toppings_Pris": 0.0
+      },
+      {
+        "ID": 1,
+        "Name": "Ost",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 2,
+        "Name": "Oregano",
+        "Toppings_Pris": 0.0
+      }
+    ],
+    "ToppingsValues": "Tomatsauce, Ost, Oregano"
+  },
+  {
+    "ID": 1,
+    "name": "Pizza La Pappas",
+    "PizzaPris": 77.0,
+    "Number": 2,
+    "Toppings": [
+      {
+        "ID": 0,
+        "Name": "Tomatsauce",
+        "Toppings_Pris": 0.0
+      },
+      {
+        "ID": 1,
+        "Name": "Ost",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 3,
+        "Name": "Kebab",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 4,
+        "Name": "Pepperoni",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 5,
+        "Name": "Løg",
+        "Toppings_Pris": 4.5
+      },
+      {
+        "ID": 6,
+        "Name": "Champignon",
+        "Toppings_Pris": 4.5
+      },
+      {
+        "ID": 2,
+        "Name": "Oregano",
+        "Toppings_Pris": 0.0
+      }
+    ],
+    "ToppingsValues": "Tomatsauce, Ost, Kebab, Pepperoni, Løg, Champignon, Oregano"
+  },
+  {
+    "ID": 2,
+    "name": "Viking",
+    "PizzaPris": 77.0,
+    "Number": 3,
+    "Toppings": [
+      {
+        "ID": 0,
+        "Name": "Tomatsauce",
+        "Toppings_Pris": 0.0
+      },
+      {
+        "ID": 1,
+        "Name": "Ost",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 3,
+        "Name": "Kebab",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 5,
+        "Name": "Løg",
+        "Toppings_Pris": 4.5
+      }
+    ],
+    "ToppingsValues": "Tomatsauce, Ost, Kebab, Løg"
+  },
+  {
+    "ID": 3,
+    "name": "Meat Lovers",
+    "PizzaPris": 93.0,
+    "Number": 4,
+    "Toppings": [
+      {
+        "ID": 0,
+        "Name": "Tomatsauce",
+        "Toppings_Pris": 0.0
+      },
+      {
+        "ID": 1,
+        "Name": "Ost",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 9,
+        "Name": "Skinke",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 10,
+        "Name": "Oksekød",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 11,
+        "Name": "Kylling",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 4,
+        "Name": "Pepperoni",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 12,
+        "Name": "Pølser",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 13,
+        "Name": "Bacon",
+        "Toppings_Pris": 9.0
+      }
+    ],
+    "ToppingsValues": "Tomatsauce, Ost, Skinke, Oksekød, Kylling, Pepperoni, Pølser, Bacon"
+  },
+  {
+    "ID": 4,
+    "name": "Pepperoni",
+    "PizzaPris": 70.0,
+    "Number": 5,
+    "Toppings": [
+      {
+        "ID": 0,
+        "Name": "Tomatsauce",
+        "Toppings_Pris": 0.0
+      },
+      {
+        "ID": 1,
+        "Name": "Ost",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 4,
+        "Name": "Pepperoni",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 2,
+        "Name": "Oregano",
+        "Toppings_Pris": 0.0
+      }
+    ],
+    "ToppingsValues": "Tomatsauce, Ost, Pepperoni, Oregano"
+  },
+  {
+    "ID": 5,
+    "name": "Aalborg",
+    "PizzaPris": 77.0,
+    "Number": 6,
+    "Toppings": [
+      {
+        "ID": 0,
+        "Name": "Tomatsauce",
+        "Toppings_Pris": 0.0
+      },
+      {
+        "ID": 1,
+        "Name": "Ost",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 3,
+        "Name": "Kebab",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 10,
+        "Name": "Oksekød",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 5,
+        "Name": "Løg",
+        "Toppings_Pris": 4.5
+      },
+      {
+        "ID": 14,
+        "Name": "Peberfrugt",
+        "Toppings_Pris": 4.5
+      },
+      {
+        "ID": 2,
+        "Name": "Oregano",
+        "Toppings_Pris": 0.0
+      }
+    ],
+    "ToppingsValues": "Tomatsauce, Ost, Kebab, Oksekød, Løg, Peberfrugt, Oregano"
+  },
+  {
+    "ID": 6,
+    "name": "Hawaii",
+    "PizzaPris": 75.0,
+    "Number": 7,
+    "Toppings": [
+      {
+        "ID": 0,
+        "Name": "Tomatsauce",
+        "Toppings_Pris": 0.0
+      },
+      {
+        "ID": 1,
+        "Name": "Ost",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 19,
+        "Name": "Ananas",
+        "Toppings_Pris": 4.5
+      },
+      {
+        "ID": 2,
+        "Name": "Oregano",
+        "Toppings_Pris": 0.0
+      }
+    ],
+    "ToppingsValues": "Tomatsauce, Ost, Ananas, Oregano"
+  },
+  {
+    "ID": 7,
+    "name": "Vesterbro",
+    "PizzaPris": 79.0,
+    "Number": 8,
+    "Toppings": [
+      {
+        "ID": 0,
+        "Name": "Tomatsauce",
+        "Toppings_Pris": 0.0
+      },
+      {
+        "ID": 1,
+        "Name": "Ost",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 9,
+        "Name": "Skinke",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 10,
+        "Name": "Oksekød",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 12,
+        "Name": "Pølser",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 2,
+        "Name": "Oregano",
+        "Toppings_Pris": 0.0
+      },
+      {
+        "ID": 6,
+        "Name": "Champignon",
+        "Toppings_Pris": 4.5
+      }
+    ],
+    "ToppingsValues": "Tomatsauce, Ost, Skinke, Oksekød, Pølser, Oregano, Champignon"
+  },
+  {
+    "ID": 8,
+    "name": "Brønderslev",
+    "PizzaPris": 79.0,
+    "Number": 9,
+    "Toppings": [
+      {
+        "ID": 0,
+        "Name": "Tomatsauce",
+        "Toppings_Pris": 0.0
+      },
+      {
+        "ID": 1,
+        "Name": "Ost",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 10,
+        "Name": "Oksekød",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 12,
+        "Name": "Pølser",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 15,
+        "Name": "Oliven",
+        "Toppings_Pris": 4.5
+      },
+      {
+        "ID": 2,
+        "Name": "Oregano",
+        "Toppings_Pris": 0.0
+      },
+      {
+        "ID": 13,
+        "Name": "Bacon",
+        "Toppings_Pris": 9.0
+      }
+    ],
+    "ToppingsValues": "Tomatsauce, Ost, Oksekød, Pølser, Oliven, Oregano, Bacon"
+  },
+  {
+    "ID": 9,
+    "name": "Sicilia",
+    "PizzaPris": 79.0,
+    "Number": 10,
+    "Toppings": [
+      {
+        "ID": 0,
+        "Name": "Tomatsauce",
+        "Toppings_Pris": 0.0
+      },
+      {
+        "ID": 1,
+        "Name": "Ost",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 9,
+        "Name": "Skinke",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 10,
+        "Name": "Oksekød",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 12,
+        "Name": "Pølser",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 2,
+        "Name": "Oregano",
+        "Toppings_Pris": 0.0
+      },
+      {
+        "ID": 15,
+        "Name": "Oliven",
+        "Toppings_Pris": 4.5
+      },
+      {
+        "ID": 13,
+        "Name": "Bacon",
+        "Toppings_Pris": 9.0
+      }
+    ],
+    "ToppingsValues": "Tomatsauce, Ost, Skinke, Oksekød, Pølser, Oregano, Oliven, Bacon"
+  },
+  {
+    "ID": 10,
+    "name": "Sondos Pizza",
+    "PizzaPris": 75.0,
+    "Number": 11,
+    "Toppings": [
+      {
+        "ID": 0,
+        "Name": "Tomatsauce",
+        "Toppings_Pris": 0.0
+      },
+      {
+        "ID": 1,
+        "Name": "Ost",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 4,
+        "Name": "Pepperoni",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 9,
+        "Name": "Skinke",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 8,
+        "Name": "Dressing",
+        "Toppings_Pris": 4.5
+      },
+      {
+        "ID": 2,
+        "Name": "Oregano",
+        "Toppings_Pris": 0.0
+      }
+    ],
+    "ToppingsValues": "Tomatsauce, Ost, Pepperoni, Skinke, Dressing, Oregano"
+  },
+  {
+    "ID": 11,
+    "name": "Rom",
+    "PizzaPris": 79.0,
+    "Number": 12,
+    "Toppings": [
+      {
+        "ID": 0,
+        "Name": "Tomatsauce",
+        "Toppings_Pris": 0.0
+      },
+      {
+        "ID": 1,
+        "Name": "Ost",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 9,
+        "Name": "Skinke",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 3,
+        "Name": "Kebab",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 2,
+        "Name": "Oregano",
+        "Toppings_Pris": 0.0
+      },
+      {
+        "ID": 4,
+        "Name": "Pepperoni",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 6,
+        "Name": "Champignon",
+        "Toppings_Pris": 4.5
+      }
+    ],
+    "ToppingsValues": "Tomatsauce, Ost, Skinke, Kebab, Oregano, Pepperoni, Champignon"
+  },
+  {
+    "ID": 12,
+    "name": "Pommes Pizza",
+    "PizzaPris": 79.0,
+    "Number": 12,
+    "Toppings": [
+      {
+        "ID": 0,
+        "Name": "Tomatsauce",
+        "Toppings_Pris": 0.0
+      },
+      {
+        "ID": 1,
+        "Name": "Ost",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 3,
+        "Name": "Kebab",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 16,
+        "Name": "Pommes Frites",
+        "Toppings_Pris": 4.5
+      },
+      {
+        "ID": 8,
+        "Name": "Dressing",
+        "Toppings_Pris": 4.5
+      },
+      {
+        "ID": 2,
+        "Name": "Oregano",
+        "Toppings_Pris": 0.0
+      }
+    ],
+    "ToppingsValues": "Tomatsauce, Ost, Kebab, Pommes Frites, Dressing, Oregano"
+  },
+  {
+    "ID": 13,
+    "name": "Bearnaise Pizza",
+    "PizzaPris": 75.0,
+    "Number": 13,
+    "Toppings": [
+      {
+        "ID": 0,
+        "Name": "Tomatsauce",
+        "Toppings_Pris": 0.0
+      },
+      {
+        "ID": 1,
+        "Name": "Ost",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 9,
+        "Name": "Skinke",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 10,
+        "Name": "Oksekød",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 17,
+        "Name": "Bearnaisesauce",
+        "Toppings_Pris": 4.5
+      },
+      {
+        "ID": 2,
+        "Name": "Oregano",
+        "Toppings_Pris": 0.0
+      }
+    ],
+    "ToppingsValues": "Tomatsauce, Ost, Skinke, Oksekød, Bearnaisesauce, Oregano"
+  },
+  {
+    "ID": 14,
+    "name": "Salami Pizza",
+    "PizzaPris": 79.0,
+    "Number": 14,
+    "Toppings": [
+      {
+        "ID": 0,
+        "Name": "Tomatsauce",
+        "Toppings_Pris": 0.0
+      },
+      {
+        "ID": 1,
+        "Name": "Ost",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 9,
+        "Name": "Skinke",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 18,
+        "Name": "Italiensk Salami",
+        "Toppings_Pris": 4.5
+      },
+      {
+        "ID": 2,
+        "Name": "Oregano",
+        "Toppings_Pris": 0.0
+      },
+      {
+        "ID": 5,
+        "Name": "Løg",
+        "Toppings_Pris": 4.5
+      },
+      {
+        "ID": 13,
+        "Name": "Bacon",
+        "Toppings_Pris": 9.0
+      }
+    ],
+    "ToppingsValues": "Tomatsauce, Ost, Skinke, Italiensk Salami, Oregano, Løg, Bacon"
+  },
+  {
+    "ID": 15,
+    "name": "Karry Pizza",
+    "PizzaPris": 75.0,
+    "Number": 15,
+    "Toppings": [
+      {
+        "ID": 0,
+        "Name": "Tomatsauce",
+        "Toppings_Pris": 0.0
+      },
+      {
+        "ID": 1,
+        "Name": "Ost",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 11,
+        "Name": "Kylling",
+        "Toppings_Pris": 9.0
+      },
+      {
+        "ID": 19,
+        "Name": "Ananas",
+        "Toppings_Pris": 4.5
+      },
+      {
+        "ID": 20,
+        "Name": "Karrydressing",
+        "Toppings_Pris": 4.5
+      },
+      {
+        "ID": 2,
+        "Name": "Oregano",
+        "Toppings_Pris": 0.0
+      }
+    ],
+    "ToppingsValues": "Tomatsauce, Ost, Kylling, Ananas, Karrydressing, Oregano"
+  }
+]

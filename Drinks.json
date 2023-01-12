@@ -1,0 +1,32 @@
+[
+  {
+    "ID": 30,
+    "Navn": "Coca-Cola 0,5L",
+    "Pris": 18.0
+  },
+  {
+    "ID": 31,
+    "Navn": "Coca-Cola Zero 0,5L",
+    "Pris": 18.0
+  },
+  {
+    "ID": 32,
+    "Navn": "Fanta Orange 0,5L",
+    "Pris": 18.0
+  },
+  {
+    "ID": 33,
+    "Navn": "Sprite 0,5L",
+    "Pris": 18.0
+  },
+  {
+    "ID": 34,
+    "Navn": "Vitamin Vand 0,5L",
+    "Pris": 18.0
+  },
+  {
+    "ID": 35,
+    "Navn": "Aloe Vera Drink 0,5L",
+    "Pris": 18.0
+  }
+]

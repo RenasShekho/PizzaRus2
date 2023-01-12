@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="PizzaRus.UserControls.Product"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"     
+             mc:Ignorable="d " Name="product" >
+    <Grid Background="#e5e9ea" Margin="0,15,0,0" HorizontalAlignment="Center">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="27"/>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="110"/>
+            <ColumnDefinition Width="50"/>
+
+        </Grid.ColumnDefinitions>
+        <Ellipse Height="80" Width="80" HorizontalAlignment="Left" Margin="15,10,0,10">
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="{Binding Path= Source, ElementName=Product}"/>
+            </Ellipse.Fill>
+        </Ellipse>
+        <TextBlock Grid.Column="1" Text="{Binding Path= PName, ElementName=Product}" FontWeight="SemiBold" FontSize="16" VerticalAlignment="Center"/>
+        <TextBlock Grid.Column="1" Text="{Binding Path= PID, ElementName=Product}" FontSize="11" VerticalAlignment="Center" Margin="0,38,0,0" Foreground="#909090"/>
+        <TextBlock Grid.Column="3" Text="{Binding Path= Count,ElementName=Product}" FontSize="16" VerticalAlignment="Center" FontWeight="SemiBold"/>
+       
+        <StackPanel Grid.Column="4" VerticalAlignment="Center" HorizontalAlignment="Left">
+            <Button Style="{StaticResource buttonCounter}">
+                <Image Source="/UserControls/plus.png"/>
+            </Button>
+            <Button Style="{StaticResource buttonCounter}" Margin="0 5 0 0">
+                <Image Source="/UserControls/minus.png"/>
+            </Button>
+        </StackPanel>
+        <TextBlock Grid.Column="5" Text="{Binding Path= PPris,ElementName=Product}" FontSize="16" VerticalAlignment="Center" FontWeight="SemiBold"/>
+        <Button Grid.Column="6" Style="{StaticResource buttonRemove}">
+            <Image Source="/Images/remove.png" Width="18" Style="{StaticResource Icon}" />
+        </Button>
+    </Grid>
+</UserControl>
